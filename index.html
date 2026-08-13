@@ -37,7 +37,7 @@
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#contact" class="nav-link">Contact Me</a></li>
-                <li><a href="img/Cv-Muhammad-Abubakar-v2.pdf" class="nav-link">Download CV</a></li>
+                <li><a href="img/Cv-Muhammad-Abubakar-.pdf" class="nav-link">Download CV</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
                 <span></span>
@@ -69,7 +69,7 @@
                 </div>
 
                 <div class="hero-buttons">
-                    <a href="img/Cv-Muhammad-Abubakar-v2.pdf" class="btn btn-primary">Download Resume</a>
+                    <a href="img/Cv-Muhammad-Abubakar-.pdf" class="btn btn-primary">Download Resume</a>
                     <a  href="https://wa.me/923366625716?text=Hi%20Muhammad%2C%20I%20visited%20your%20portfolio%20and%20want%20to%20connect!" 
     class="btn btn-secondary">💬 Chat on WhatsApp</a>
                 </div>
@@ -402,41 +402,52 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
-            <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" rows="6" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
+   <!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+        <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+            
+            <form class="contact-form" action="https://formsubmit.co/connect.muhammadabubakar@gmail.com" method="POST">
+                
+                <!-- Email Subject Line -->
+                <input type="hidden" name="_subject" value="New Portfolio Contact Form Message!">
+                
+                <!-- Anti-Spam Honeypot Field -->
+                <input type="text" name="_honey" style="display:none">
+                
+                <!-- Disable Extra Captcha Page (Optional) -->
+                <input type="hidden" name="_captcha" value="false">
 
-                <div class="social-icons" data-aos="fade-up" data-aos-delay="400">
-                    <a href="mailto:connect.muhammadabubakar@gmail.com" target="_blank" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://wa.me/923366625716?text=Hi%20Muhammad%2C%20I%20visited%20your%20portfolio%20and%20want%20to%20connect!" target="_blank" title="WhatsApp">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/muhammad-abubakar-517a45374/" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/connect-muhammad-abubakar" target="_blank" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
                 </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div class="social-icons" data-aos="fade-up" data-aos-delay="400">
+                <a href="mailto:connect.muhammadabubakar@gmail.com" target="_blank" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/923366625716?text=Hi%20Muhammad%2C%20I%20visited%20your%20portfolio%20and%20want%20to%20connect!" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-abubakar-517a45374/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/connect-muhammad-abubakar" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="footer">
